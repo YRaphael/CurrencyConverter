@@ -1,0 +1,15 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@android:color/transparent" />
+                    <corners android:radius="5dp" />
+                    <stroke android:width="1dp" android:color="@android:color/darker_gray" />
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/to" android:gravity="center_vertical|right" android:right="5dp" />
+        </layer-list>
+    </item>
+</selector>

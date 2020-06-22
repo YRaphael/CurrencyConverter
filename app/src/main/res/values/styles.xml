@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">#d1d1d1</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="SpinnerStyle.To" parent="Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/spinner_background_to</item>
+    </style>
+
+    <style name="SpinnerStyle.From" parent="Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/spinner_background_from</item>
+    </style>
+
+
+    <style name="MyCardViewStyle" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPaddingBottom">16dp</item>
+        <item name="contentPaddingTop">16dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">#E6E7EF</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+
+        <item name="colorPrimary">#3F51B5</item>
+
+        <item name="colorPrimaryDark">#3949AB</item>
+
+        <item name="colorAccent">#00B0FF</item>
+
+    </style>
+
+</resources>
